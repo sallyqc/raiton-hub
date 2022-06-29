@@ -1,0 +1,27 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Raito Hub", "Ocean")
+
+-- MAIN
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Scripts")
+
+
+MainSection:NewButton("Enclosed", "Enclosed hub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Pvpahh/enclosed/main/enclosed'))()
+end)
+
+MainSection:NewButton("DaHub v3", "dahub hubv3 very pro", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NoUGotbannedlol/DaHubV3/main/Launch"))()
+
+end)
+
+MainSection:NewButton("swag mode", "very hot ", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+
+end)
+
+MainSection:NewButton("soggy ware", "soggy hub", function()
+    loadstring(game:HttpGet("https://soggyhubv2.vercel.app"))()
+
+
+end)
